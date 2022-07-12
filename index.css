@@ -261,7 +261,6 @@ main {
 	width: auto;
 	height: 10px;
 	padding: 20px;
-	margin-left: 50px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
