@@ -426,6 +426,10 @@ main {
 	border: none;
 }
 
+#who div:hover {
+	filter: grayscale(100%);
+}
+
 #who div h1 {
 	position: absolute;
 	text-align: center;
@@ -555,6 +559,7 @@ main {
 	margin-top: 5px;
 	transition: 1s;
 }
+
 #pathology div:hover {
 	filter: grayscale(100%);
 }
