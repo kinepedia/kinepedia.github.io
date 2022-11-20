@@ -638,6 +638,44 @@ main {
 	background-image: url("res/images/pathology/10.jpg");
 }
 
+#credits h3 {
+	text-align: center;
+	font-weight: 100;
+	font-size: 20px;
+	font-family: "arial", sans-serif;
+	color: #00000070;
+	font-weight: 750;
+}
+
+#credits a{
+	color: black;
+	text-decoration: none;
+	position: relative;
+}
+
+#credits a::after{
+	content: "";
+	transition: all 0.3s;
+	position: absolute;
+	bottom: 0%;
+	left: 0;
+	width: 100%;
+	transform: scaleX(0%);
+	height: 3px;
+	transform-origin: left;
+	background-color: #2D9CDB;
+}
+
+#credits a{
+	color: #2D9CDB;
+	text-shadow: #2D9CDB 0px 0px 5px;
+}
+
+#credits a::after{
+	transform-origin: right;
+	transform: scaleX(100%);
+}
+
 .box {
 	width: 40%;
 	margin: 0 auto;
