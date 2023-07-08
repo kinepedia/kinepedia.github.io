@@ -9,20 +9,24 @@
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://kinepedia.github.io/balneo.html</loc>
+  <priority>0.20</priority>
+</url>
+<url>
   <loc>https://kinepedia.github.io/index.html</loc>
-  <priority>0.80</priority>
+  <priority>0.20</priority>
 </url>
 <url>
   <loc>https://kinepedia.github.io/baby.html</loc>
-  <priority>0.80</priority>
+  <priority>0.20</priority>
 </url>
 <url>
   <loc>https://kinepedia.github.io/child.html</loc>
-  <priority>0.80</priority>
+  <priority>0.20</priority>
 </url>
 <url>
   <loc>https://kinepedia.github.io/teen.html</loc>
-  <priority>0.80</priority>
+  <priority>0.20</priority>
 </url>
 
 
