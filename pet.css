@@ -314,6 +314,10 @@ ul{
 	border: 1px solid #2ddb8d;
 }
 
+.text:nth-of-type(5) .link a{
+	background: #db2dbe;
+	border: 1px solid #db2dbe;
+}
 
 .text .link a:hover {
 	background: #00000000;
