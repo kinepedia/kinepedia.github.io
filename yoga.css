@@ -13,19 +13,10 @@ body {
 	border: 0;
 	margin: 0;
 	background-color: #0f0f11;
-	background-image: url("res/background/background.jpg");
+	background-image: url("res/background/pet.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-}
-
-
-p{
-	width: 100%;
-}
-
-ul{
-	width: calc(100% - 100px);
 }
 
 *,
@@ -48,6 +39,14 @@ header {
 	position: fixed;
 	top: 0;
 	z-index: 999;
+}
+
+p{
+	width: 100%;
+}
+
+ul{
+	width: calc(100% - 100px);
 }
 
 .titles {
@@ -314,12 +313,14 @@ main {
 	border: 1px solid #2ddb8d;
 }
 
-.text:nth-of-type(5) .link a{
-	background: #db2dbe;
-	border: 1px solid #db2dbe;
-}
 
 .text .link a:hover {
+	background: #00000000;
+	color: #000000;
+	border: 1px solid #000000;
+}
+
+.link a:hover {
 	background: #00000000;
 	color: #000000;
 	border: 1px solid #000000;
@@ -784,6 +785,57 @@ main {
 
 .popup .close:hover {
 	color: #06D85F;
+}
+
+blockquote {
+	position: relative;
+	text-align: center;
+	font-weight: 200;
+	font-size: 30px;
+	font-family: "arial", sans-serif;
+	font-style: italic;
+}
+
+blockquote p {
+	margin: 0;
+}
+
+blockquote:before {
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	content: "\f10d";
+	font-family: 'Fontawesome';
+	font-size: 40px;
+	color: #999;
+}
+
+blockquote:after {
+	position: absolute;
+	bottom: 25px;
+	right: 25px;
+	content: "\f10e";
+	font-family: 'Fontawesome';
+	font-size: 40px;
+	color: #999;
+}
+
+figcaption {
+	position: relative;
+	text-align: right;
+}
+
+figcaption span {
+	text-align: center;
+	font-weight: 200;
+	font-size: 22px;
+	font-family: "arial", sans-serif;
+	display: inline-block;
+	position: relative;
+	margin-right: 40px;
+	padding: 0 8px;
+	background: #ffffff;
+	z-index: 1;
 }
 
 @media screen and (max-width: 700px) {
